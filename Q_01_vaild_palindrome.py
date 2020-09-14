@@ -33,10 +33,9 @@ def isPalindrome(input) :
     for i in input:
         if i.isalnum() :
             strList.append(i.lower())
-    if strList != strList[::-1] :
-            return False
-    return True
-
+            
+    return strList == strList[::-1]
+    
 input = "A man, a plan, a canal: Panama"
 
 print(isPalindrome(input))
