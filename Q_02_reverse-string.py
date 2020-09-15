@@ -13,3 +13,13 @@ def reverseString(s):
 
 result = reverseString(input_data)
 print(result)
+
+
+
+## 승범
+def reverseString(s) :
+    return s.reverse()
+
+input_data = ["H", "a", "n", "n", "a","h"]
+reverseString(input_data)
+print(input_data)
