@@ -25,3 +25,11 @@ class Solution :
 sample = ['a','b','c','d','e']
 s = Solution()
 s.reverseString(sample)
+
+## 승범
+def reverseString(s) :
+    return s.reverse()
+
+input_data = ["H", "a", "n", "n", "a","h"]
+reverseString(input_data)
+print(input_data)
