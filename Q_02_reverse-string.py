@@ -13,3 +13,15 @@ def reverseString(s):
 
 result = reverseString(input_data)
 print(result)
+
+#영보
+from typing import List
+
+class Solution :
+    def reverseString(self,s:List[str]) -> None:
+        s.reverse()
+        print(s)
+
+sample = ['a','b','c','d','e']
+s = Solution()
+s.reverseString(sample)
