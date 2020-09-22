@@ -22,7 +22,8 @@ class solution :
                     right -= 1
                 else :
                     results.append((nums[i], nums[left], nums[right]))
-                
+                    # i번째에서 정답을 찾은 후, left와 right가 같은 경우 스킵 
+                    # [-1 0 1 -2 2 1 1 1]의 경우 right가 오른쪽 3번째 1로 이동
                     while left > right and nums[left] == nums[left + 1]:
                         left += 1
                     while left < right and nums[right] == nums[right - 1]:
