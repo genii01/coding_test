@@ -28,6 +28,6 @@ l2_1.next = l2_2
 
 s = Solution()
 result = s.mergeTwoLists(l1,l2)
-while result.next :
+while result :
     print(result.val)
     result = result.next
