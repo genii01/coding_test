@@ -14,6 +14,8 @@ class Solution :
         while node :
             next, node.next = node.next , prev
             prev, node = node, next
+            # prev에 None / 1 -> None / 2 -> 1-> None 업데이트
+            # next에 node.next 넣으면서 head 하나씩 소거
         
         return prev
         
