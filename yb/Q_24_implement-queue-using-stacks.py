@@ -1,5 +1,3 @@
-import collections
-
 class MyQueue :
     def __init__(self):
         self.input = []
